@@ -1,0 +1,13 @@
+name: Poseidon's Spear
+version: 1.0.0
+main: com.enderdevelopment.plugin.Main
+api-version: "1.21"
+commands:
+  poseidonspear:
+    description: Gives you Poseidon's Spear.
+    usage: /poseidonspear
+    permission: poseidonspear.get
+permissions:
+  poseidonspear.get:
+    description: Allows the player to obtain Poseidon's Spear.
+    default: op
